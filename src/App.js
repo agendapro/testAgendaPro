@@ -6,21 +6,33 @@ import "./App.css";
 const App = () => {
   let [list, setList] = useState([]);
   let [name, setName] = useState("");
-  let [position, setPosition] = useState("");
+  let [role, setRole] = useState("");
 
   function handleName(e) {
     setName(e.target.value);
   }
 
-  function handlePosition(e) {
-    setPosition(e.target.value);
+  function handleRole(e) {
+    setRole(e.target.value);
+  }
+
+  function handleDelete(e) {
+    // logic to delete
+  }
+
+  function onValid(e) {
+    // logic to validation
+  }
+
+  function onSubmit(e) {
+    // logic when we wants to submit the form
   }
 
   function handleSave() {
     setList([
       {
         name: name,
-        position: position,
+        role: role,
       },
       ...list,
     ]);
@@ -44,7 +56,7 @@ const App = () => {
               placeholder="Agregue un nombre"
               onChange={(e) => handleName(e)}
             />
-            <select onChange={(e) => handlePosition(e)}>
+            <select onChange={(e) => handleRole(e)}>
               <option value="backend developer">backend developer</option>
               <option value="frontend developer">frontend developer</option>
             </select>
@@ -71,7 +83,7 @@ const App = () => {
                     <p>
                       <b>{item.name}</b>
                     </p>
-                    <p>{item.position}</p>
+                    <p>{item.role}</p>
                   </div>
                 </div>
               );
