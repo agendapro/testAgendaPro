@@ -8,13 +8,9 @@ const App = () => {
   let [name, setName] = useState("");
   let [role, setRole] = useState("");
 
-  function handleName(e) {
-    setName(e.target.value);
-  }
+  function handleName(e) {}
 
-  function handleRole(e) {
-    setRole(e.target.value);
-  }
+  function handleRole(e) {}
 
   function handleDelete(e) {
     // logic to delete
@@ -45,12 +41,8 @@ const App = () => {
         <div className="flex flex-direction-column">
           <p>Agregar un nuevo miembro al equipo: </p>
           <div className="form flex flex-direction-column">
-            <input
-              type="text"
-              placeholder="Agregue un nombre"
-              onChange={(e) => handleName(e)}
-            />
-            <select onChange={(e) => handleRole(e)}>
+            <input type="text" placeholder="Agregue un nombre" />
+            <select>
               <option value="backend developer">backend developer</option>
               <option value="frontend developer">frontend developer</option>
             </select>
