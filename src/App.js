@@ -20,22 +20,16 @@ const App = () => {
     // logic to delete
   }
 
+  function handleSearch(e) {
+    // logic to find
+  }
+
   function onValid(e) {
     // logic to validation
   }
 
-  function onSubmit(e) {
-    // logic when we wants to submit the form
-  }
-
   function handleSave() {
-    setList([
-      {
-        name: name,
-        role: role,
-      },
-      ...list,
-    ]);
+    // logic to save
   }
 
   useEffect(() => {
@@ -60,16 +54,20 @@ const App = () => {
               <option value="backend developer">backend developer</option>
               <option value="frontend developer">frontend developer</option>
             </select>
-            <button type="button" onClick={() => handleSave()}>
-              Agregar
-            </button>
+            <button type="button">Agregar</button>
           </div>
         </div>
         <div>
           <div className="wrapper">
             <div className="flex flex-direction-column align-center">
-              <h4 className="title">Equipo AgendaPro</h4>
-              <div className="separator"></div>
+              <div className="form flex flex-direction-column">
+                <p>Buscar por nombre o Role:</p>
+                <input type="text" placeholder="Agregue un nombre" />
+              </div>
+              <div>
+                <h4 className="title">Equipo AgendaPro</h4>
+                <div className="separator"></div>
+              </div>
             </div>
           </div>
           <div className="list">

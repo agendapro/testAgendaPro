@@ -1,28 +1,47 @@
-[{
-  "name": "Nayhib Padrón",
-  "position": "FrontEnd Developer"
-},{
-  "name": "Sebastian Hevia",
-  "position": "BackEnd Developer"
-},{
-  "name": "Rodrigo Monsalve",
-  "position": "FrontEnd Developer"
-},{
-  "name": "Jose Avila",
-  "position": "FrontEnd Developer"
-},{
-  "name": "José Liscano",
-  "position": "BackEnd Developer"
-},{
-  "name": "Marcos Arias",
-  "position": "BackEnd Developer"
-},{
-  "name": "Eric Labra",
-  "position": "BackEnd Developer"
-},{
-  "name": "Patricio Tapia",
-  "position": "BackEnd Developer"
-},{
-  "name": "Yerko Henríquez",
-  "position": "FrontEnd Developer"
-}]
+[
+  {
+    "id": 1,
+    "name": "Nayhib Padrón",
+    "role": "FrontEnd Developer"
+  },
+  {
+    "id": 2,
+    "name": "Sebastian Hevia",
+    "role": "BackEnd Developer"
+  },
+  {
+    "id": 3,
+    "name": "Rodrigo Monsalve",
+    "role": "FrontEnd Developer"
+  },
+  {
+    "id": 4,
+    "name": "Brayyan Yanes",
+    "role": "FrontEnd Developer"
+  },
+  {
+    "id": 5,
+    "name": "José Liscano",
+    "role": "BackEnd Developer"
+  },
+  {
+    "id": 6,
+    "name": "Marco Arias",
+    "role": "BackEnd Developer"
+  },
+  {
+    "id": 7,
+    "name": "Eric Labra",
+    "role": "BackEnd Developer"
+  },
+  {
+    "id": 8,
+    "name": "Patricio Tapia",
+    "role": "BackEnd Developer"
+  },
+  {
+    "id": 9,
+    "name": "Yerko Henríquez",
+    "role": "FrontEnd Developer"
+  }
+]
