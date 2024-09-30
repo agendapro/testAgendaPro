@@ -18,7 +18,6 @@ const Home = () => {
     };
     setList([...list, createDeveloper]);
   };
-  console.log(list);
 
   return (
     <div>

@@ -1,8 +1,6 @@
 import React from "react";
 
 const ListDeveloper = (list) => {
-  console.log(list);
-  
   return (
     <div className="list">
       {list.list.map((item, index) => {
